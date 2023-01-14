@@ -22,6 +22,7 @@ namespace ElementosPOO{
         {
             Console.WriteLine($"El cocinero limpiará{limpieza} toda la cocina");
             return "Se limpió la cocina";
+			Console.WriteLine("");
         }
     }
 }
