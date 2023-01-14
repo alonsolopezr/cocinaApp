@@ -17,6 +17,11 @@ namespace ElementosPOO{
 			// TODO implement here
 			return false;
 		}
-
-	}
+        public string limpiar(double limpieza)
+			//Se agregó la función de limpiar la cocina, por el cocinero
+        {
+            Console.WriteLine($"El cocinero limpiará{limpieza} toda la cocina");
+            return "Se limpió la cocina";
+        }
+    }
 }
