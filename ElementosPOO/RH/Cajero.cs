@@ -33,7 +33,7 @@ namespace ElementosPOO{
             Console.WriteLine( "Limpiando area "+area);
             return "Se limpió";
         }
-
+        #:3
       
     }
 }
