@@ -1,0 +1,15 @@
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/ElementosPOO.csproj.AssemblyReference.cache
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/ElementosPOO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/ElementosPOO.AssemblyInfoInputs.cache
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/ElementosPOO.AssemblyInfo.cs
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/ElementosPOO.csproj.CoreCompileInputs.cache
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/bin/Debug/net7.0/ElementosPOO
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/bin/Debug/net7.0/ElementosPOO.deps.json
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/bin/Debug/net7.0/ElementosPOO.runtimeconfig.json
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/bin/Debug/net7.0/ElementosPOO.dll
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/bin/Debug/net7.0/ElementosPOO.pdb
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/ElementosPOO.dll
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/refint/ElementosPOO.dll
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/ElementosPOO.pdb
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/ElementosPOO.genruntimeconfig.cache
+/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/Debug/net7.0/ref/ElementosPOO.dll

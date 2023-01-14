@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementosPOO", "ElementosPOO\ElementosPOO.csproj", "{6A11E04A-0F1B-4F28-94A0-F7345C4EBD7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A11E04A-0F1B-4F28-94A0-F7345C4EBD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A11E04A-0F1B-4F28-94A0-F7345C4EBD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A11E04A-0F1B-4F28-94A0-F7345C4EBD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A11E04A-0F1B-4F28-94A0-F7345C4EBD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5EB3C23-A0F5-4707-A2F4-5C31A46FE341}
+	EndGlobalSection
+EndGlobal
