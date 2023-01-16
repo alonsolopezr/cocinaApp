@@ -10,6 +10,7 @@ namespace ElementosPOO{
 		public void limpiar();
 		public string limpiar(string area);
 		public string limpiar(double metros);
+		//actualizaciones de Lilian
 
 		/// creo que asi seria
 		public string trapear(string area);
