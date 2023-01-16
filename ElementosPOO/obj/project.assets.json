@@ -8,29 +8,32 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/aloncello/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/ElementosPOO.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\CocinaEjemplo\\cocinaApp\\ElementosPOO\\ElementosPOO.csproj",
       "projectName": "ElementosPOO",
-      "projectPath": "/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/ElementosPOO.csproj",
-      "packagesPath": "/Users/aloncello/.nuget/packages/",
-      "outputPath": "/Users/aloncello/code/dotNET/ElementosPOO/ElementosPOO/obj/",
+      "projectPath": "C:\\Users\\Usuario\\source\\repos\\CocinaEjemplo\\cocinaApp\\ElementosPOO\\ElementosPOO.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\source\\repos\\CocinaEjemplo\\cocinaApp\\ElementosPOO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "/Users/aloncello/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,12 +62,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
