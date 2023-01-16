@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElementosPOO
 {
-    internal class IcalcularSueldo
+    interface ICalcularSueldo
     {
         public double calcularSueldo();
     }
