@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 
 namespace ElementosPOO{
-	public class JefeDeOficina : Empleado , IFacturar {
+	public class JefeDeOficina : Empleado , IFacturar, IcalcularSueldo{
 
 		public JefeDeOficina() {
 		}
@@ -20,5 +20,7 @@ namespace ElementosPOO{
 			return "";
 		}
 
+		public double calcularSueldo() {
+			return 0;
 	}
 }
