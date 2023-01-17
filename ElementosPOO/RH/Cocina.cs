@@ -7,13 +7,14 @@ using System.Text;
 namespace ElementosPOO{
 	public class Cocina : Empleado {
 
-		public Cocina() {
-		}
+		public Cocina() 
+        {
 
-		/// <summary>
-		/// @return
-		/// </summary>
-		public bool limpiar() {
+		}
+        /// <summary>
+        /// @return
+        /// </summary>
+        public bool limpiar() {
 			// TODO implement here
 			return false;
 		}
@@ -23,6 +24,16 @@ namespace ElementosPOO{
             Console.WriteLine($"El cocinero limpiará{limpieza} toda la cocina");
             return "Se limpió la cocina";
 			Console.WriteLine("");
+        }
+        //public double calcularSueldo1()
+        
+            //double res = 1234;
+           // return res;
+        
+
+        public override double calcularSueldo1()
+        {
+            throw new NotImplementedException();
         }
     }
 }

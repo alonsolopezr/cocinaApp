@@ -12,7 +12,9 @@ namespace ElementosPOO // Note: actual namespace depends on the project name.
 
             Intendente intendente = new Intendente();
             intendente.limpiar(34.34);
-            
+            //Agregaré un jefe y que uno de cocina limpie.
+            JefeDeOficina nuevoJefe = new JefeDeOficina();
+            Cocina cocineroLimpiador = new Cocina();
 
 
 

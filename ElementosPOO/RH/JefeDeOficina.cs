@@ -4,10 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ElementosPOO{
-	public class JefeDeOficina : Empleado , IFacturar {
+namespace ElementosPOO
+{
+	public class JefeDeOficina : Empleado, IFacturar, IcalcularSueldo
+	{
 
-		public JefeDeOficina() {
+		public JefeDeOficina()
+		{
 		}
 
 
@@ -15,10 +18,15 @@ namespace ElementosPOO{
 		/// @param datos 
 		/// @return
 		/// </summary>
-		public string facturar(DatosDeFacturacion datos) {
+		public string facturar(DatosDeFacturacion datos)
+		{
 			// TODO implement here
 			return "";
 		}
 
+		public double calcularSueldo()
+		{
+			return 0;
+		}
 	}
 }

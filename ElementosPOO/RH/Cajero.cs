@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
 namespace ElementosPOO{
-	public class Cajero : Empleado, IFacturar, ILimpiar {
+	public class Cajero : Empleado, IFacturar, ILimpiar,ICalcularSueldo {
 
 		string elNombre = "Angel....";
 		public Cajero() {
 			Console.WriteLine(	"Se creó un cajero con nombre "+this.elNombre);
-		}
+        }
 
         public string facturar(DatosDeFacturacion datos)
         {
@@ -34,6 +35,22 @@ namespace ElementosPOO{
             return "Se limpió";
         }
 
-      
+        //todo: Terminar de implemenntar los métodos
+        public string trapear(string area)
+        {
+            string res = "";
+            Console.WriteLine("Vamos a trapear... como Renegado lo indica");
+            for(int a=0; a<=25;a++)
+                Console.WriteLine("Trapeandich ich dich  ... ando... Vor Mir "+a+" min.");
+
+            return res;
+        }
+        public string sacarbasura(string areas)
+        {
+            string res = "";
+            Console.WriteLine("Se esta sacando la basura como Nava indica");
+            return res; 
+        }
+        public double calcularSueldo();
     }
 }
