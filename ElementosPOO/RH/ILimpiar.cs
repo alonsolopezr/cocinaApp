@@ -7,14 +7,14 @@ using System.Text;
 namespace ElementosPOO{
 	public interface ILimpiar
 	{
-		public void limpiar();
-		public string limpiar(string area);
-		public string limpiar(double metros);
+		public void Limpiar();
+		public string Limpiar(string area);
+		public string Limpiar(double metros);
 		//actualizaciones de Lilian
 
 		/// creo que asi seria
-		public string trapear(string area);
-		public string sacarbasura(string areas);
+		public string Trapear(string area);
+		public string Sacarbasura(string area);
 		}
 	}
-}	
+	

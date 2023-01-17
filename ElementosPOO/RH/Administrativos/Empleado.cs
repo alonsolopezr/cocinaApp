@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
 namespace ElementosPOO{
@@ -27,7 +28,7 @@ namespace ElementosPOO{
 		protected double salarioDiario;
 		protected double pagoHoraExtra;
 		protected int horasTrabajadas;
-		public double calcularSueldo;
+		public double Sueldo;
 
 		
 
@@ -38,11 +39,7 @@ namespace ElementosPOO{
 		
 		}
 
-		/// esto lo ha sugerido visual asi que no tengo ni idea de que se trata =D
-		public abstract double calcularSueldo1()
-		{
-			return ((salarioDiario * horasTrabajadas) + pagoHoraExtra);
-		}
+		
 
 	}
 }

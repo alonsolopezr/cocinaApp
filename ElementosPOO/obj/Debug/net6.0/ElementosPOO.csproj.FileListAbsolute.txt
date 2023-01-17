@@ -1,0 +1,5 @@
+C:\Users\Usuario\source\repos\CocinaApp2\cocinaApp\ElementosPOO\obj\Debug\net6.0\ElementosPOO.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\CocinaApp2\cocinaApp\ElementosPOO\obj\Debug\net6.0\ElementosPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\CocinaApp2\cocinaApp\ElementosPOO\obj\Debug\net6.0\ElementosPOO.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\CocinaApp2\cocinaApp\ElementosPOO\obj\Debug\net6.0\ElementosPOO.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\CocinaApp2\cocinaApp\ElementosPOO\obj\Debug\net6.0\ElementosPOO.csproj.CoreCompileInputs.cache

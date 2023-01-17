@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ElementosPOO
 {
-    interface ICalcularSueldo
+    public interface ICalcularSueldo
     {
-        public double calcularSueldo();
+        public double CalcularSueldo();
     }
 }

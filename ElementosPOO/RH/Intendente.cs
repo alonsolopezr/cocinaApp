@@ -6,38 +6,53 @@ using System.Text;
 
 namespace ElementosPOO
 {
-	public class Intendente : Empleado, ILimpiar, {
+	public class Intendente : Empleado, ILimpiar {
 
-		public Intendente() {
-		}
+        string miNombre = "xxx.";
 
+        public Intendente() {
+            Console.WriteLine("Se creó un intendente con nombre " + this.miNombre);
+        }
+          
 
-        public void limpiar()
-        {
+        public void Limpiar(){
+
             Console.WriteLine("Limpiando....");
         }
-        public string limpiar(double metros)
+        public string Limpiar(double metros)
         {
             Console.WriteLine("Limpiando  " + metros + " metros...");
             return "Se limpió";
         }
-        public string limpiar(string area)
+        public string Limpiar(string area)
         {
             Console.WriteLine("Limpiando area " + area);
             return "Se limpió";
         }
 
-        /// creo que seria asi
-        public string trapear(string area)
+        public string Trapear(string area)
         {
-            Console.WriteLine("Estoy trapeando el area" + area);
-            return "area trapeada" + area;
+            string res = "";
+            Console.WriteLine("Vamos a trapear... como Renegado lo indica");
+            for (int a = 0; a <= 25; a++)
+                Console.WriteLine("Trapeandich ich dich  ... ando... Vor Mir " + a + " min.");
+
+            return res;
         }
-        public string sacarbasura(string area)
+
+        public string Sacarbasura(string area)
         {
-            Console.WriteLine("¿Sacando basur al area" + area);
-            return "I did it";
+            string res = "";
+            Console.WriteLine("Sacando la basura de todas las areas");
+            if (area == "1")
+            {
+                Console.WriteLine("Bien hecho, sigue trabajando");
+            }
+            else
+                Console.WriteLine("estas perdiendo tiempo, apurale");
+            return res;
         }
+
 
 
     }
