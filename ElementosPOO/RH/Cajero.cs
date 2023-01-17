@@ -53,9 +53,10 @@ namespace ElementosPOO{
             return res; 
         }
 
-        public override double calcularSueldo1()
+        public override double CalcularSueldo1()
         {
-            throw new NotImplementedException();
+            double res = 0;
+            return res; 
         }
     }
 }

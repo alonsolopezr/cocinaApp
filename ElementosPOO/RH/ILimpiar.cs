@@ -17,4 +17,3 @@ namespace ElementosPOO{
 		public string sacarbasura(string areas);
 		}
 	}
-}	

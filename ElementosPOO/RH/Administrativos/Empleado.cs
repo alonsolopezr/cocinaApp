@@ -39,12 +39,9 @@ namespace ElementosPOO{
 		}
 
 		/// esto lo ha sugerido visual asi que no tengo ni idea de que se trata =D
-		public abstract double calcularSueldo1();
-
-
-
+		public abstract double CalcularSueldo1();
 		
-			//return ((salarioDiario * horasTrabajadas) + pagoHoraExtra);
+		//return ((salarioDiario * horasTrabajadas) + pagoHoraExtra);
 		
 
 	}

@@ -27,9 +27,11 @@ namespace ElementosPOO
 		{
 			return 0;
 		}
-        public override double calcularSueldo1()
+        public override double CalcularSueldo1()
         {
-            throw new NotImplementedException();
+			int res = 0;
+			Console.WriteLine("Se calculó su sueldo con base en faltas, entonces quedó en " + res);
+			return res; 
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ElementosPOO
 {
-	public class Intendente : Empleado, ILimpiar, {
+	public class Intendente : Empleado, ILimpiar{
 
 		public Intendente() {
 		}
@@ -37,6 +37,10 @@ namespace ElementosPOO
         {
             Console.WriteLine("¿Sacando basur al area" + area);
             return "I did it";
+        }
+        public override double CalcularSueldo1()
+        {
+            throw new NotImplementedException();
         }
 
 
