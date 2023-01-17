@@ -25,15 +25,10 @@ namespace ElementosPOO{
             return "Se limpió la cocina";
 			Console.WriteLine("");
         }
-        //public double calcularSueldo1()
-        
-            //double res = 1234;
-           // return res;
-        
-
-        public override double calcularSueldo1()
+        public override double CalcularSueldo1()
         {
-            throw new NotImplementedException();
+            double res = 0;
+            return res; 
         }
     }
 }

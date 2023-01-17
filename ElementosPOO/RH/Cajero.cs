@@ -2,11 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
 
 namespace ElementosPOO{
-	public class Cajero : Empleado, IFacturar, ILimpiar,ICalcularSueldo {
+	public class Cajero : Empleado, IFacturar, ILimpiar{
 
 		string elNombre = "Angel....";
 		public Cajero() {
@@ -51,6 +52,10 @@ namespace ElementosPOO{
             Console.WriteLine("Se esta sacando la basura como Nava indica");
             return res; 
         }
-        public double calcularSueldo();
+
+        public override double calcularSueldo1()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -12,7 +12,6 @@
     <None Remove="RH\Administrativos\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="RH\" />
     <Folder Include="RH\Administrativos\" />
   </ItemGroup>
 </Project>

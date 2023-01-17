@@ -11,22 +11,25 @@ namespace ElementosPOO
 
 		public JefeDeOficina()
 		{
+
 		}
-
-
-		/// <summary>
-		/// @param datos 
-		/// @return
-		/// </summary>
-		public string facturar(DatosDeFacturacion datos)
+        /// <summary>
+        /// @param datos 
+        /// @return
+        /// </summary>
+        public string facturar(DatosDeFacturacion datos)
 		{
 			// TODO implement here
 			return "";
 		}
 
-		public double calcularSueldo()
+		public double IcalcularSueldo()
 		{
 			return 0;
 		}
-	}
+        public override double calcularSueldo1()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
